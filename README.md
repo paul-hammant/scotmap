@@ -1,3 +1,7 @@
+# See this on GitHub Pages
+
+https://paul-hammant.github.io/scotmap/
+
 # Work done 
 
 Image in here was taken from:
@@ -7,8 +11,8 @@ Image in here was taken from:
 3. That shown in the a browser
 4. screen-capped back to png (125 KB, 676 x 900 pixels)
 5. Taken into a PNG to SVG tracing tool with "extra smoothing turned on"
-6. That SVG fixed up by hand quite a bit - layering, some deletes where the delete couldn't be seen (353 KB)
-7. Handed to ChatGPT's "GPT4o" LLM for additional path simplification (246 KB). 
+6. That SVG fixed up by hand quite a bit - layering, some deletes where the delete couldn't be seen (353 KB, 144KB zipped)
+7. Handed to ChatGPT's "GPT4o" LLM for additional path simplification (246 KB, 93 KB zipped). 
 
 # Copyright
 
