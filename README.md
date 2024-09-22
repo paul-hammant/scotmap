@@ -1,3 +1,15 @@
+# What is this?
+
+An SVG map of the local authorities of Scotland. Click on the label for the local authority and go to a 
+page for that. No pages for this in this demo (all 404 right now).
+
+For your use, you'd copy in scottish-local-authorities-with-labels-and-links.svg and scottish-local-authorities.svg 
+to your solution, have something like the index.html I have here, and ensure that the hyperlinks go to something 
+meaningful. 
+
+To me, this was a 2024 experiment to see how far AIs could go with work on SVGs, but it could be useful to someone
+in Scotland as is.
+
 # See this on GitHub Pages
 
 https://paul-hammant.github.io/scotmap/
