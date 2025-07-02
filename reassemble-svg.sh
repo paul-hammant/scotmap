@@ -17,14 +17,35 @@ echo '<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="676" height="900" v
 cat r-of-uk.svg >> $OUTPUT_SVG
 cat roi.svg >> $OUTPUT_SVG
 
-    # Add each authority as an embedded SVG group
-for svg_file in "$INPUT_DIR"/*.svg; do
-    if [ -f "$svg_file" ]; then
-        authority=$(basename "$svg_file" .svg)
-        echo "<!-- Authority: $authority -->" >> $OUTPUT_SVG
-        cat $svg_file >> $OUTPUT_SVG
-    fi
-done
+cat authorities/aberdeenshire.svg >> $OUTPUT_SVG
+cat authorities/angus.svg >> $OUTPUT_SVG
+cat authorities/argyll-and-bute.svg >> $OUTPUT_SVG
+cat authorities/clackmannanshire.svg >> $OUTPUT_SVG
+cat authorities/dumfries-and-galloway.svg >> $OUTPUT_SVG
+cat authorities/dunbarton.svg >> $OUTPUT_SVG
+cat authorities/east-ayrshire.svg >> $OUTPUT_SVG
+cat authorities/east-dunbartonshire.svg >> $OUTPUT_SVG
+cat authorities/east-lothian.svg >> $OUTPUT_SVG
+cat authorities/east-renfrewshire.svg >> $OUTPUT_SVG
+cat authorities/edinburgh.svg >> $OUTPUT_SVG
+cat authorities/falkirk.svg >> $OUTPUT_SVG
+cat authorities/fife.svg >> $OUTPUT_SVG
+cat authorities/glasgow.svg >> $OUTPUT_SVG
+cat authorities/highland.svg >> $OUTPUT_SVG
+cat authorities/inverclyde.svg >> $OUTPUT_SVG
+cat authorities/midlothian.svg >> $OUTPUT_SVG
+cat authorities/moray.svg >> $OUTPUT_SVG
+cat authorities/na-h-eileanan-siar.svg >> $OUTPUT_SVG
+cat authorities/north-ayrshire.svg >> $OUTPUT_SVG
+cat authorities/north-lanarkshire.svg >> $OUTPUT_SVG
+cat authorities/orkney-islands.svg >> $OUTPUT_SVG
+cat authorities/perth-and-kinross.svg >> $OUTPUT_SVG
+cat authorities/renfrewshire.svg >> $OUTPUT_SVG
+cat authorities/scottish-borders.svg >> $OUTPUT_SVG
+cat authorities/shetland-islands.svg >> $OUTPUT_SVG
+cat authorities/south-ayrshire.svg >> $OUTPUT_SVG
+cat authorities/south-lanarkshire.svg >> $OUTPUT_SVG
+cat authorities/west-lothian.svg >> $OUTPUT_SVG
 
 cat coastline.svg >> $OUTPUT_SVG
 
