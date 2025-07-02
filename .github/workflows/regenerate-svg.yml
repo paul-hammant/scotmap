@@ -1,0 +1,53 @@
+name: Regenerate SVG and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'authorities/**'
+      - 'reassemble-svg.sh'
+      - 'scottish-local-authorities-with-labels-and-links.svg'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  regenerate-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Make script executable
+        run: chmod +x reassemble-svg.sh
+        
+      - name: Run regenerate script
+        run: ./reassemble-svg.sh
+
+      - name: Check generated file
+        run: |
+          ls -la *.svg
+          echo "Generated file size:"
+          du -h scottish-local-authorities-with-labels-and-links-REGENERATED.svg || echo "File not found"
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,48 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="217 -179 676 900" width="676" height="900">
+    <defs/>
+    <g id="scottish-local-authorities-text" stroke="none" stroke-dasharray="none" fill="none" fill-opacity="1" stroke-opacity="1">
+        <g id="background">
+            <rect x="217" y="-179" width="676" height="900" id="path"/>
+            <clipPath id="clip_path">
+                <use xlink:href="#path"/>
+            </clipPath>
+            <g clip-path="url(#clip_path)">
+                <!-- pick one of these two -->
+                <!-- image href="./scottish-local-authorities.png" width="676" height="900" transform="translate(217 -179)"/-->
+                <image href="./scottish-local-authorities.svg" width="676" height="900" transform="translate(217 -179)"/>
+            </g>
+        <!-- #include authorities/falkirk.svg -->
+        <!-- #include authorities/highland.svg -->
+        <!-- #include authorities/aberdeen.svg -->
+        <!-- #include authorities/aberdeenshire.svg -->
+        <!-- #include authorities/edinburgh.svg -->
+        <!-- #include authorities/dunbarton.svg -->
+        <!-- #include authorities/glasgow.svg -->
+        <!-- #include authorities/fife.svg -->
+        <!-- #include authorities/orkney-islands.svg -->
+        <!-- #include authorities/shetland-islands.svg -->
+        <!-- #include authorities/angus.svg -->
+        <!-- #include authorities/argyll-and-bute.svg -->
+        <!-- #include authorities/clackmannanshire.svg -->
+        <!-- #include authorities/dumfries-and-galloway.svg -->
+        <!-- #include authorities/dundee-city.svg -->
+        <!-- #include authorities/east-ayrshire.svg -->
+        <!-- #include authorities/east-dunbartonshire.svg -->
+        <!-- #include authorities/east-lothian.svg -->
+        <!-- #include authorities/east-renfrewshire.svg -->
+        <!-- #include authorities/west-lothian.svg -->
+        <!-- #include authorities/inverclyde.svg -->
+        <!-- #include authorities/midlothian.svg -->
+        <!-- #include authorities/moray.svg -->
+        <!-- #include authorities/na-h-eileanan-siar.svg -->
+        <!-- #include authorities/north-ayrshire.svg -->
+        <!-- #include authorities/north-lanarkshire.svg -->
+        <!-- #include authorities/perth-and-kinross.svg -->
+        <!-- #include authorities/renfrewshire.svg -->
+        <!-- #include authorities/scottish-borders.svg -->
+        <!-- #include authorities/south-ayrshire.svg -->
+        <!-- #include authorities/south-lanarkshire.svg -->
+        <!-- #include authorities/stirling.svg -->
+    </g>
+</svg>

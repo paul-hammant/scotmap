@@ -5,7 +5,40 @@ page for that. No pages for this in this demo (all 404 right now).
 
 For your use, you'd copy in scottish-local-authorities-with-labels-and-links.svg and scottish-local-authorities.svg 
 to your solution, have something like the index.html I have here, and ensure that the hyperlinks go to something 
-meaningful. 
+meaningful.
+
+## SVG Splitting and Reassembly
+
+This repository includes scripts to split the main Scotland SVG into individual authority files and reassemble them:
+
+### Usage
+
+1. **Split the main SVG into individual authority files:**
+   ```bash
+   ./split-svg.sh
+   ```
+   This creates an `authorities/` directory with 32 individual SVG files (one per Scottish local authority).
+
+2. **Generate a reassembled SVG using the include system:**
+   ```bash
+   ./svg-include.sh      # Creates template with include markers
+   ./process-includes.sh # Processes includes to generate final SVG
+   ```
+   This creates `scotland-generated.svg` (24K) that's functionally identical to the original but assembled from individual components.
+
+### Alternative Reassembly
+
+You can also use the direct reassembly method:
+```bash
+./reassemble-svg.sh
+```
+
+### Benefits
+
+- **Modular editing**: Edit individual authority SVGs independently
+- **Maintainable**: Template-based system with `<!-- #include authorities/authority.svg -->` markers
+- **Browser-ready**: Generated SVG maintains all original functionality and links
+- **Smaller files**: Individual authority files are easier to work with than the full 353KB original 
 
 To me, this was a 2024 experiment to see how far AIs could go with work on SVGs, but it could be useful to someone
 in Scotland as is.
