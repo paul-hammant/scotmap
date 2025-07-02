@@ -38,7 +38,7 @@ jobs:
         run: |
           ls -la *.svg
           echo "Generated file size:"
-          du -h scottish-local-authorities-with-labels-and-links-REGENERATED.svg || echo "File not found"
+          du -h scottish-local-authorities.svg || echo "File not found"
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
