@@ -67,11 +67,21 @@ took big.
 
 # Copyright
 
-From the NUTS-3 SVG on wikipedia:
+Most of this is from the NUTS-3 SVG on wikipedia (https://en.m.wikipedia.org/wiki/File:NUTS_3_regions_of_Scotland_map.svg)
 
     "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
     Attribution: Dr Greg, Nilfanion & XrysD. Contains Ordnance Survey data © Crown copyright and 
     database right 2011"
+
+Inverclyde, Renfrewshire and East-renfrewshire are melded into one in the above, so they are 
+separately pulled from https://commons.wikimedia.org/wiki/File:East_Renfrewshire,_Inverclyde,_Renfrewshire.svg, with the copyright section:
+
+    "Barryob, the copyright holder of this work, hereby publishes it under the following 
+    license: GNU headPermission is granted to copy, distribute and/or modify this document 
+    under the terms of the GNU Free Documentation License, Version 1.2 or any later version 
+    published by the Free Software Foundation; with no Invariant Sections, no Front-Cover 
+    Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled 
+    GNU Free Documentation License.
 
 As transformations have been applied to an original and only minor hand edits, the PNG and SVG in here should be considered the same license and copyright.
 
