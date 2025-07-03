@@ -38,29 +38,28 @@
         </g>
         <g id="aberdeenshire-line-and-text">
             <a xlink:href="./aberdeenshire">
-                <text transform="translate(698.6 310)" fill="black">
-                    <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Aberdeen</tspan>
-                    <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="35">-shire</tspan>
+                <text transform="translate(656 350)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Aberdeenshire</tspan>
                 </text>
             </a>
         </g>
         <g id="edinburgh-city-line-and-text">
             <a xlink:href="./city-of-edinburgh">
-                <text transform="translate(719.38 533.853)" fill="black">
+                <text transform="translate(724 525)" fill="black">
                     <tspan font-family="Helvetica Neue" font-size="19.2" fill="black" x="0" y="15">City of Edinburgh
                     </tspan>
                 </text>
             </a>
-            <line x1="660" y1="521" x2="716" y2="540" stroke="red" stroke-width="1"/>
+            <line x1="660" y1="521" x2="721" y2="534" stroke="red" stroke-width="1"/>
             <circle cx="660" cy="521" r="3" fill="red"/>
         </g>
         <g id="dunbartonshire-line-and-text">
             <a xlink:href="./dunbartonshire">
-                <text transform="translate(316.9 460)" fill="black">
+                <text transform="translate(316.9 458)" fill="black">
                     <tspan font-family="Helvetica Neue" font-size="13.44" fill="black" x="0" y="15">Dunbartonshire</tspan>
                 </text>
             </a>
-            <line x1="400.92" y1="474" x2="558.2" y2="508" stroke="blue" stroke-width="1"/>
+            <line x1="402" y1="473" x2="550" y2="502" stroke="blue" stroke-width="1"/>
         </g>
         <g id="glasgow-line-and-text">
             <a xlink:href="./glasgow-city">
@@ -81,9 +80,9 @@
         </g>
         <g id="orkney-islands-line-and-text">
             <a xlink:href="./orkney-islands">
-                <text transform="translate(617.6 50)" fill="black">
-                    <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Orkney Islands
-                    </tspan>
+                <text transform="translate(625 38)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Orkney</tspan>
+                    <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="32">Islands</tspan>
                 </text>
             </a>
         </g>
@@ -104,10 +103,9 @@
         </g>
         <g id="argyll-and-bute-line-and-text">
             <a xlink:href="./argyll-and-bute">
-                <text transform="translate(481.12 387)" fill="black">
-                    <tspan font-family="Helvetica Neue" font-size="19.2" fill="black" x="0" y="15">Argyll</tspan>
-                    <tspan font-family="Helvetica Neue" font-size="19.2" fill="black" x="0" y="35">and</tspan>
-                    <tspan font-family="Helvetica Neue" font-size="19.2" fill="black" x="0" y="55">Bute</tspan>
+                <text transform="translate(475 360)" fill="black" style="text-shadow: 1px 1px 1px white;">
+                    <tspan font-family="Helvetica Neue" font-size="19.2" fill="black" x="7" y="15">Argyll</tspan>
+                    <tspan font-family="Helvetica Neue" font-size="19.2" fill="black" x="0" y="35">and Bute</tspan>
                 </text>
             </a>
         </g>
@@ -121,7 +119,7 @@
         </g>
         <g id="dumfries-and-galloway-line-and-text">
             <a xlink:href="./dumfries-and-galloway">
-                <text transform="translate(580.84 611.5)" fill="black">
+                <text transform="translate(585 606)" fill="black">
                     <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Dumfries &amp;</tspan>
                     <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="35">Galloway</tspan>
                 </text>
@@ -129,25 +127,25 @@
         </g>
         <g id="dundee-city-line-and-text">
             <a xlink:href="./dundee-city">
-                <text transform="translate(756.27 413.6)" fill="black">
+                <text transform="translate(756.27 428)" fill="black">
                     <tspan font-family="Helvetica Neue" font-size="16.8" fill="black" x="0" y="13">Dundee</tspan>
                 </text>
             </a>
-            <line x1="753" y1="420" x2="660" y2="455" stroke="red" stroke-width="1"/>
+            <line x1="753" y1="438" x2="660" y2="455" stroke="red" stroke-width="1"/>
             <circle cx="660" cy="455" r="3" fill="red"/>
         </g>
         <g id="east-ayrshire-line-and-text">
             <a xlink:href="./east-ayrshire">
                 <text transform="translate(560.56 574.5)" fill="black">
-                    <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="0" y="13">East</tspan>
+                    <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="8" y="12">East</tspan>
                     <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="0" y="23">Ayrshire</tspan>
                 </text>
             </a>
         </g>
         <g id="east-dunbartonshire-line-and-text">
             <a xlink:href="./east-dunbartonshire">
-                <text transform="translate(305.788 475.2)" fill="black">
-                    <tspan font-family="Helvetica Neue" font-size="11.2" fill="black" x="0" y="13">East Dunbartonshire</tspan>
+                <text transform="translate(290 475.2)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="13.4" fill="black" x="0" y="13">East Dunbartonshire</tspan>
                 </text>
             </a>
             <line x1="585" y1="518" x2="403" y2="485" stroke="blue" stroke-width="1"/>
@@ -196,25 +194,22 @@
         </g>
         <g id="moray-line-and-text">
             <a xlink:href="./moray">
-                <text transform="translate(590 318)" fill="black">
+                <text transform="translate(580 318)" fill="black">
                     <tspan font-family="Helvetica Neue" font-size="18" fill="black" x="0" y="15">Moray</tspan>
                 </text>
             </a>
         </g>
         <g id="na-h-eileanan-siar-line-and-text">
             <a xlink:href="./na-h-eileanan-siar">
-                <text transform="translate(333.8 170)" fill="black">
-                    <tspan font-family="Helvetica Neue" font-size="18.2" fill="black" x="0" y="13">Na h-Eileanan
-                        Siar
-                    </tspan>
-                    <tspan font-family="Helvetica Neue" font-size="18.2" fill="black" x="0" y="30">(Western Isles)
-                    </tspan>
+                <text transform="translate(333.8 150)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="18.2" fill="black" x="0" y="13">Na h-Eileanan Siar</tspan>
+                    <tspan font-family="Helvetica Neue" font-size="18.2" fill="black" x="0" y="30">(Western Isles)</tspan>
                 </text>
             </a>
         </g>
         <g id="north-ayrshire-line-and-text">
             <a xlink:href="./north-ayrshire">
-                <text transform="translate(497.04 550)" fill="black">
+                <text transform="translate(509 548)" fill="black">
                     <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="0" y="13">North Ayrshire</tspan>
                 </text>
             </a>
@@ -263,10 +258,10 @@
         </g>
         <g id="south-lanarkshire-line-and-text">
             <a xlink:href="./south-lanarkshire">
-                <text transform="translate(600.676 546.5)" fill="black">
+                <text transform="translate(600 544)" fill="black">
                     <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="0" y="13">South</tspan>
                     <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="0" y="23">Lanark</tspan>
-                    <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="0" y="33">-shire</tspan>
+                    <tspan font-family="Helvetica Neue" font-size="14" fill="black" x="4" y="33">-shire</tspan>
                 </text>
             </a>
         </g>
